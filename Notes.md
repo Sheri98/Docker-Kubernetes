@@ -132,26 +132,26 @@ s - cheduler [ ensures pods placement]
  - Etcd[kubernets backing keycalue store, backup is made from this snapshot]
 
 ```VirtualNetwork helps all the node into one powerfull machine
-		________________
-		| 	  Master   |	 
-		|--------------|		
-		| Apiserver    |
-		| Controller   |
-		| Schedular    |
-		| Etcd         |
-		|______________|
+		     ________________
+		     |    Master    |	 
+		     |--------------|		
+		     | Apiserver    |
+		     | Controller   |
+		     | Schedular    |
+		     |  Etcd        |
+		     |______________|
 			   _||_	
 			   \  /
 			    \/
-   ______________________________________
-  |			Virtual Network				|
-  |_____________________________________|
+         ______________________________________
+        |		Virtual Network	      |
+        |_____________________________________|
   			   _||_
   			   \  /
- 			   	\/
-_____________  _____________ _____________
-|WorkerNode1|  |WorkerNode2| |WorkerNode3|
-|___________|  |___________| |___________|
+ 			    \/
+        _____________  _____________ _____________
+       |WorkerNode1|  |WorkerNode2| |WorkerNode3|
+       |___________|  |___________| |___________|
 
 ```
 # Kubernetes components:
