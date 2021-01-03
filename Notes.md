@@ -22,8 +22,8 @@
  - Running instance of image
 
 ``` Diagrmatic way:
-        run 
-Image=========>Container
+        runtime  
+Image=============>Container
 ```
 ## Image installation and run:
 ```docker pull nginx[name]
