@@ -10,7 +10,8 @@
 ```container1 continaer2 => Docker=>Host.OS = > infra```
 ##  vmware working architecture
 
-```      vm1=>Host.os=>hypervisor
+```      
+	vm1=>Host.os=>hypervisor
 		||
 	 infrastructure
 		||
