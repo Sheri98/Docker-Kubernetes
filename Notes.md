@@ -6,13 +6,13 @@
 
 
 ## container: share os no need of space extra
-- ```container1 continaer2 => Docker=>H.OS = > infra``` 
-      	```vm1=>H.os=>hypervisor```
-	`	||`
-	`infrastructure`
-	`	|| `
-     ```vm2=>H.OS=>hypervisor``` 
-
+```container1 continaer2 => Docker=>H.OS = > infra
+      	vm1=>H.os=>hypervisor
+		||
+	 infrastructure
+		||
+       vm2=>H.OS=>hypervisor
+```
 ##Install and run:
  - from docker website
 
