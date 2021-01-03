@@ -1,5 +1,5 @@
 #  Docker: 
-##Introduction:
+## Introduction:
  - running app in an isolated environment.
  - doesnt require mem and os like vm
  - standard for software deployment
@@ -16,16 +16,16 @@
 ##Install and run:
  - from docker website
 
-# Docker Image:
+## Docker Image:
  - image is a template, it has snapshot, contain os,software,appcode
-#Container:
+## Container:
  - Running instance of image
 
 ``` Diagrmatic way:```
       `  run `
 `Image=========>Container`
 
-Image installation and run:
+## Image installation and run:
 ```docker pull nginx[name]
 docker images [ to see docker images ]
 docker run  ImageName:Tag[ use -d to detach and run]
