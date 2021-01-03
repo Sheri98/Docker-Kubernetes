@@ -6,8 +6,11 @@
 
 
 ## container: share os no need of space extra
-```container1 continaer2 => Docker=>H.OS = > infra
-      	vm1=>H.os=>hypervisor
+## Docker architecture
+```container1 continaer2 => Docker=>H.OS = > infra```
+##  vmware working architecture
+
+```      	vm1=>H.os=>hypervisor
 		||
 	 infrastructure
 		||
