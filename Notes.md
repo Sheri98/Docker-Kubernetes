@@ -17,8 +17,8 @@
 		||
        vm2=>H.OS=>hypervisor
 ```
-##Install and run:
- - from docker website
+## Install and run:
+ - ''' From docker website '''
 
 ## Docker Image:
  - image is a template, it has snapshot, contain os,software,appcode
