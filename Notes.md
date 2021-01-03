@@ -21,10 +21,10 @@
 ## Container:
  - Running instance of image
 
-``` Diagrmatic way:```
-      `  run `
-`Image=========>Container`
-
+``` Diagrmatic way:
+        run 
+Image=========>Container
+```
 ## Image installation and run:
 ```docker pull nginx[name]
 docker images [ to see docker images ]
